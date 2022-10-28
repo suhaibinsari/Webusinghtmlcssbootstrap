@@ -1,0 +1,923 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+header{
+
+    background-image: url(../Imgs/Group\ 10346.png);
+    background-attachment: scroll;
+    background-position: left top;
+    background-size: contain;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    
+z-index: -1;
+margin-top: -10px;
+
+    
+}
+
+
+#top-bar{
+    background-color: black;
+}
+
+.container .row p{
+ padding-top: 20px;
+    
+}   
+
+.container div >p {
+    color: white;
+}
+
+div p >em{
+    color: yellow;
+    font-style: normal;
+    
+}
+
+#nav-bar{
+
+padding-top: 10px;
+margin-top: 15px;
+}
+
+.container div> h2{
+    color: white;
+}
+
+.container div> ul{
+    list-style-type: none;
+    float: right;
+    
+}
+
+.container div> ul>li{
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 45px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        margin-top: 12px;
+        
+       
+    }
+    .container div> button{
+        
+        background-color: orangered;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-top: 7px;
+  border: 2px solid orangered;
+  
+    }
+
+    #btn-1:hover{
+        background: white;
+        transition: 0s;
+        border: 2px solid orangered;
+        color:orangered;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+
+#header-info .container h2{
+margin-top: 150px;
+    font-size: small;
+    margin-left: 18px;
+
+
+}
+
+#header-info .container h3{
+
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 18px;
+    font-weight:bold;
+    color: white;
+}
+
+#header-info .container h1{
+
+    margin-top: 5px;
+    font-size: 70px;
+    margin-left: 18px;
+    font-weight:bold;
+    color: white;
+}
+
+#header-info .container h4{
+
+    margin-top: 5px;
+    font-size: 15px;
+    margin-left: 18px;
+    font-weight:600;
+    color: white;
+}
+
+#header-info .btn{
+    margin-top: 40px;
+    margin-left: 18px;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    cursor: pointer;
+}
+
+#header-info .btn:hover{
+   background: white;
+   transition: 0s;
+   color: orangered;
+   border: 2px solid orangered;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+    #Tags .container p{
+        margin-top: 30px;
+        margin-right: 40px;
+color: black;
+font-weight: bold;
+
+
+    }
+    .container p i{
+        color: black;
+        
+
+        
+    }
+
+    .container .row img{
+    
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+
+    hr{
+       
+width: 200px;
+margin-top: 150px;
+margin-left: 600px;
+left: 385px;
+top: 3904px;
+border: 1px dashed #000000;
+    }
+
+.heading p{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.heading p i{
+    color: red;
+    font-style: normal;
+}
+.heading h6{
+    color: gray;
+}
+
+.data-section{
+    margin-top: 100px;
+   
+}
+
+.data-section #Box-1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.data-section #Box-2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.data-section img{
+  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+   
+
+}
+
+.data-section .text-left h3{
+
+    margin-top: 30px;
+    margin-left: 25px;
+color: orangered;
+
+
+
+
+
+}
+.data-section .text-left>p{
+color: gray;
+margin-top: 30px;
+text-align: justify;
+line-height: 1.8;
+font-weight: 600;
+
+}
+
+.data-section .btn-4{
+margin-top: 60px;
+    color: green;
+    margin-left: 50px;
+    background-color: orangered;
+border: none;
+  color: white;
+  padding: 7px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  padding-left: 20px;
+  border: 2px solid orangered;
+
+}
+
+.data-section .btn-4:hover{
+    background: white;
+   transition: 0s;
+   color: orangered;
+   border: 2px solid orangered;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    }
+
+
+.data-section .btn-5{
+
+    
+    background-color:white;
+    color: gray;
+    padding: 8px 50px;
+    font-weight: 500;
+ 
+    border-style: dotted dashed solid; 
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.data-section .btn-5:hover{
+    transition: 0s;
+   border: 2px solid orangered;
+    background-color:orangered;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.data-section #Box-3 img{
+
+    height: 80px;
+    width: 80px;
+    margin-left:20px;
+    margin-top: 20px;
+
+}
+
+.data-section #Box-3 h3{
+
+    color:black;
+    margin-top: -8px;
+ font-size: 30px;
+ font-weight: 600;
+}
+
+.data-section #Box-4 {
+
+border: 1px solid gray;
+width: 19%;
+margin-left: 28px;
+margin-top: 30px;
+
+}
+
+
+.data-section #split-right >p{
+
+    margin-left: 28px;
+    width: 50%;
+    font-weight: 600;
+    color: gray;
+    margin-top: 50px;
+   
+   
+}
+
+.data-section #split-right >img{
+
+    position: relative;
+z-index: 100;
+width: 50%;
+height: 350px;
+margin-top: -200px;
+    float: right;
+   
+
+    
+}
+
+
+
+.data-section #Box-9 button{
+
+
+    margin-top: 30px;
+    margin-left: 28px;
+    background-color: orangered;
+    border: none;
+      color: white;
+      padding: 7px 30px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 30px;
+      padding-left: 20px;
+      border: 2px solid orangered;
+      text-align: center;
+
+
+}
+.data-section #Box-9 button:hover{
+    background: white;
+    transition: 0s;
+    color: orangered;
+    border: 2px solid orangered;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.data-section #Box-9 p{
+    margin-top: 50px;
+    margin-left: 28px;
+color: black;
+}
+
+
+.data-section #Box-9 p span{
+
+color: orangered;
+text-decoration: underline;
+
+}
+
+.tax-application-section .row{
+
+margin-top: 200px;
+margin-left: 35px;
+
+}
+
+.tax-application-section #tax-row-1 h2{
+    
+color: orangered;
+padding-top: 10px;
+
+
+}
+
+.tax-application-section #img-16{
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+    width: 160px;
+    height: 80px;
+}
+
+.tax-application-section #img-17{
+
+    margin-left: 30px;
+    margin-top:-25px ;
+    box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+    border: 1px solid white;
+    width: 160px;
+    height: 80px;
+}
+
+
+
+.tax-application-section #line-3{
+
+
+   border-bottom: 2px solid gray;
+   margin-top: 40px;
+   width: 15%;
+   margin-left: 223px;
+
+}
+
+
+
+
+.tax-application-section #tax-row-2{
+    
+
+margin-top: -150px;
+
+}
+
+
+
+.tax-application-section #img-18{
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+    width: 160px;
+    height: 80px;
+    margin-top: -150px;
+    margin-left: 40px;
+    margin-top: -220px;
+
+}
+
+.tax-application-section #img-19{
+    margin-left: 30px;
+    margin-top:-25px ;
+    box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+    border: 1px solid white;
+    width: 160px;
+    height: 80px;
+    margin-top: -320px;
+    margin-left: 80px;
+
+}
+
+#line{
+
+
+    margin-right: 10%;
+
+}
+
+.tax-bottom-box{
+padding-top: 50px; 
+
+}
+
+.tax-bottom-box #yellow{
+    background-color: orangered;
+    width: 50px;
+    height: 200px;
+}
+
+.tax-bottom-box h1{
+
+font-size: 25px;
+margin-left: 50px;
+margin-top: 50px;
+}
+
+
+.tax-bottom-box h3{
+
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 5px;
+    color: orangered;
+    }
+
+
+    .tax-bottom-box #tax-bottom-line{
+
+        color: gray;
+        margin-left: 50px;
+        margin-top: 20px;
+        
+        
+    }
+
+
+    .tax-bottom-box h6{
+
+        
+        margin-left: 50px;
+        margin-top: 5px;
+        color: gray;
+        font-size: 20px;
+        }
+
+        .tax-bottom-box #yellow-2{
+            background-color: orangered;
+            width: 300px;
+            height: 200px;
+            margin-left:80px;
+            
+        }
+
+        .tax-bottom-box #btn-6{
+    
+            position: relative;
+            display: block;
+            margin-top: 25%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+         background-color: white;
+        border: none;
+      color: orangered;
+      padding: 7px 30px;
+      font-weight: bold;  
+      border-radius: 30px;
+      padding-left: 20px;
+      border: 2px solid white;
+      text-align: center;
+        }
+        .tax-bottom-box #btn-6:hover{
+            background: white;
+            transition: 0s;
+            color: orangered;
+            border: 2px solid orangered;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+
+        }
+
+.bottom-text h3{
+color: black;
+font-size: 20px;
+padding-top: 10px;
+}
+
+
+.bottom-text h3>span{
+
+    color: orangered;
+}
+
+
+.support-box{
+   
+    margin-top: 20px;
+    height: 500px;
+    justify-content: center;
+}
+
+
+.support-box i{
+    font-size: 12px;
+    font-weight: bold;
+    margin-right:40px;
+    color: orangered;
+    position: relative;
+top: 25px;
+    
+}
+
+.support-box span{
+    font-size: 12px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 20px;
+    
+}
+
+
+.support-box #line-1{
+
+border-bottom: 2px solid gray;
+position: relative;
+top: 50px;
+width: 40%;
+margin-left: 100px;
+
+
+}
+
+.support-box #line-2{
+
+    
+    text-align: left;
+    position: relative;
+    top: 70px;
+    padding-left: 100px;
+    
+    
+    }
+
+
+.support-box #support-img{
+
+height: 300px;
+width: 400px;
+margin-left:200px;
+}
+
+ #line-4{   
+
+margin-top: -20px;
+
+}
+
+.testimonials{
+
+    padding-top: 80px;
+   
+}
+
+.testimonials i{
+font-size: 30px;
+color: gray;
+
+}
+
+
+.testimonials .row{
+margin-left: 15%;
+align-items: center;
+
+}
+
+
+.testimonials #box-left{
+  
+height: 300px;
+width: 150px;
+border: 2px dashed gray;
+border-radius: 15px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.testimonials #box-center{
+  
+    height: 350px;
+    width: 250px;
+    border: 2px dashed gray;               
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+
+    .testimonials #box-right{
+  
+        height: 300px;
+        width: 150px;
+        border: 2px dashed gray;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+
+        .testimonials  #box-right .box-head{
+
+            background-color: gray;
+            border-radius: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 100px;
+            width:100%;
+        }
+
+        .testimonials  #box-center .box-head{
+
+            background-color: orangered;
+            border-radius: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 150px;
+            width:100%;
+            
+        }
+
+        .testimonials  #box-left .box-head{
+
+            background-color: gray;
+            border-radius: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 100px;
+            width:100%;
+        }
+
+        #box-right .box-head img{
+
+margin-left: -4px;
+height: 80px;
+width: 80px;
+
+        }
+
+ #box-center .box-head img{
+
+            margin-left: 10px;
+            height: 100px;
+            width: 100px;
+            
+  }
+ #box-left .box-head img{
+
+margin-left: -1px;
+ height: 80px;
+width: 80px;
+                        
+}
+
+.testimonials .box-head >h6 {
+
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+}
+
+.testimonials .box-head >i{
+    
+font-size: 18px;
+    color: yellow;
+    padding-top: 5px;
+}
+
+.testimonials .box-head >h5{
+    font-size: 12px;
+}
+
+.testimonials .box-head >h4{
+    font-size: 12px;
+    color: tomato;
+    padding-top: 55px;
+    font-weight: bolder;
+}
+
+
+.social-links{
+
+
+margin-top: 50px;
+
+
+}
+
+.social-links .row{
+   
+   
+   margin-left: 100px;
+
+}
+
+.social-links .row #f{
+
+    width: 75px;
+    height: 20px;
+    position: relative;
+    margin-bottom: 100px;
+    
+
+
+}
+.social-links .row #round{
+
+    width: 95px;
+    height: 20px;
+    position: relative;
+    margin-bottom: 100px;
+
+}
+.social-links .row #s{
+
+    width: 75px;
+    height: 20px;
+    position: relative;
+    margin-bottom: 100px;
+   
+
+}
+.social-links .row #g{
+
+    width: 75px;
+    height: 20px;
+    position: relative;
+    margin-bottom: 100px;
+
+}
+
+.social-links .row h6{
+
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.social-links .row i{
+
+color: yellow;
+font-size: 15px;
+line-height: 0.7;
+
+}
+
+footer{
+background-image: url(../Imgs/NoPath\ -\ Copy\ \(2\).png);
+
+max-width: 100%;  
+height: 350px;  
+
+
+    
+}
+.end-bar{
+
+background-color: black;
+position: relative;
+z-index: 100;
+margin-top: 100px;
+
+}
+
+
+
+.footer-menu .row{
+
+margin-left: 50px;
+
+
+}
+
+
+.footer-menu .row h1{
+
+
+color: white;
+margin-top: 150px;
+font-size: 30px;
+text-align: left;
+
+
+}
+
+.footer-menu .row input{
+
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    border-radius: 20px;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+  left: 100px;
+  border: 2px solid white;
+  background-color: transparent;
+ color: white;
+}
+.footer-menu .row input [placeholder]{
+
+    color: white;
+}
+
+
+.footer-menu .row button{
+
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    padding: 10px 25px;
+    border: 2px solid white;
+    outline: none;
+    right: 90px;
+    color: orangered;
+    background-color: white;
+
+
+}
+
+
+.footer-menu .row button:hover{
+
+
+color: white;
+background-color: orangered;
+transition: 0s;
+border: 2px solid orangered;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.footer-menu .row #btn-7{
+margin-top: 150px;
+
+}
